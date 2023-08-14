@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<!-- Auther: Shorouk Abdelaziz  https://shorouk.dev -->
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Socials</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: grid;
+      place-items: center;
+    }
+
+    .wrapper {
+      padding-top: 10px;
+      display: inline-flex;
+
+    }
+
+    .fill {
+      width: 50px;
+      height: 50px;
+      padding: 2%;
+      color: #fff;
+      outline: 0;
+      border: 2px solid black;
+      cursor: pointer;
+      position: relative;
+      background-color: rgba(0, 0, 0, 0);
+      margin: 5px;
+    }
+
+    .fill::after {
+      content: "";
+      width: 100%;
+      z-index: -1;
+      position: absolute;
+      height: 100%;
+      top: 5px;
+      left: 5px;
+      transition: 0.2s;
+    }
+
+    .fill:hover::after {
+      top: 0px;
+      left: 0px;
+    }
+
+
+    .icon {
+      font-size: 1em;
+    }
+
+
+    .email:hover,
+    .email::after {
+ else if (id === "email") {
+          window.open("mailto:anab.peces@gmail.com", '_blank').focus(); //Add your email after "mailto:""
+        }
+        
+
+      background-color: #23c8c8;
+    }
+
+    .instagram:hover,
+    .instagram::after {
+ else if (id === "instagram") {
+          window.open("https://www.instagram.com/thede_fault/", '_blank').focus(); //Add the url to your instagram account
+        }
+      background: #f86ee1;
+    }
+
+    .twitter:hover,
+    .twitter::after {
+else if (id === "twitter") {
+          window.open(https://twitter.com/home", '_blank').focus(); //Add the url to your twitter account
+      background-color: #26a7de;
+    }
+
+    .reddit:hover,
+    .reddit::after {
+else if (id === "reddit") {
+          window.open("https://www.reddit.com/r/place/", '_blank').focus(); //Add the url to your reddit account
+        }
+      background-color: #ff4500;
+    }
+
+    .tiktok:hover,
+    .tiktok::after {
+ else if (id === "tiktok") {
+          window.open("https://www.tiktok.com/@thede_fault?lang=es", '_blank').focus(); //Add the url to your tiktok account
+        }
+      background-color: #ff0050;
+    }
+
+    .youtube:hover,
+    .youtube::after {
+  else if (id === "youtube") {
+          window.open("https://www.youtube.com/", '_blank').focus(); //Add the url to your youtube account
+        }
+      background-color: #FF0000;
+    }
+
+    .pinterest:hover,
+    .pinterest::after {
+else if (id === "pinterest") {
+          window.open("https://www.pinterest.es/", '_blank').focus(); //Add the url to your pinterest account
+        }
+      background-color: #c8232c;
+    }
+
+
+    .social {
+      position: relative;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    .social:hover {
+      color: #fff;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <body>
+
+    <div class="wrapper">
+
+
+
+      <!-- Start email Icon -->
+      <div id="email" onclick="navigate(this.id)" class="fill email">
+        <span class="icon email"><i class="fa-solid fa-envelope"></i></span>
+      </div>
+      <!-- End email Icon -->
+
+
+      <!-- Start instagram Icon -->
+      <div id="instagram" onclick="navigate(this.id)" class="fill instagram">
+        <span class="icon"><i class="fab fa-instagram"></i></span>
+      </div>
+      <!-- End instagram Icon -->
+
+
+      <!-- Start twitter Icon -->
+      <div id="twitter" onclick="navigate(this.id)" class="fill twitter">
+        <span class="icon"><i class="fab fa-twitter"></i></span>
+      </div>
+      <!-- End twitter Icon -->
+
+
+      <!-- Start reddit Icon -->
+      <div id="reddit" onclick="navigate(this.id)" class="fill reddit">
+        <span class="icon"><i class="fab fa-reddit"></i></span>
+      </div>
+      <!-- End reddit Icon -->
+
+
+      <!-- Start tiktok Icon -->
+      <div id="tiktok" onclick="navigate(this.id)" class="fill tiktok">
+        <span class="icon"><i class="fab fa-tiktok"></i></span>
+      </div>
+      <!-- End tiktok Icon -->
+
+      <!-- Start youtube Icon -->
+      <div id="youtube" onclick="navigate(this.id)" class="fill youtube">
+        <span class="icon"><i class="fab fa-youtube"></i></span>
+      </div>
+      <!-- End youtube Icon -->
+
+      <!-- Start pinterest Icon -->
+      <div id="pinterest" onclick="navigate(this.id)" class="fill pinterest">
+        <span class="icon"><i class="fab fa-pinterest"></i></span>
+      </div>
+      <!-- End pinterest Icon -->
+
+
+
+
+    </div>
+
+
+
+
+    <script>
+      function navigate(id) {
+
+      }
+
+    </script>
+
+
+
+  </body>
+
+</html>
